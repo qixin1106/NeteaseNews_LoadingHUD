@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		991E43AB1A3EE03F003792CA /* QXHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E43AA1A3EE03F003792CA /* QXHUDView.m */; };
 		991E43AE1A3EE08A003792CA /* QXActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E43AD1A3EE08A003792CA /* QXActivityView.m */; };
+		991E43B01A3EE9FA003792CA /* single.gif in Resources */ = {isa = PBXBuildFile; fileRef = 991E43AF1A3EE9FA003792CA /* single.gif */; };
 		996DEF391A2DBE6A008FE75B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 996DEF381A2DBE6A008FE75B /* main.m */; };
 		996DEF3C1A2DBE6A008FE75B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 996DEF3B1A2DBE6A008FE75B /* AppDelegate.m */; };
 		996DEF3F1A2DBE6A008FE75B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 996DEF3E1A2DBE6A008FE75B /* ViewController.m */; };
@@ -24,6 +25,7 @@
 		991E43AA1A3EE03F003792CA /* QXHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXHUDView.m; sourceTree = "<group>"; };
 		991E43AC1A3EE08A003792CA /* QXActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXActivityView.h; sourceTree = "<group>"; };
 		991E43AD1A3EE08A003792CA /* QXActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXActivityView.m; sourceTree = "<group>"; };
+		991E43AF1A3EE9FA003792CA /* single.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = single.gif; sourceTree = "<group>"; };
 		996DEF331A2DBE6A008FE75B /* TestHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		996DEF371A2DBE6A008FE75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		996DEF381A2DBE6A008FE75B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		996DEF2A1A2DBE6A008FE75B = {
 			isa = PBXGroup;
 			children = (
+				991E43AF1A3EE9FA003792CA /* single.gif */,
 				99A1B5391A355A2900192C88 /* README.md */,
 				99A1B53A1A355A2900192C88 /* showDisplay.gif */,
 				996DEF351A2DBE6A008FE75B /* TestHUD */,
@@ -163,6 +166,7 @@
 				996DEF421A2DBE6A008FE75B /* Main.storyboard in Resources */,
 				996DEF471A2DBE6A008FE75B /* LaunchScreen.xib in Resources */,
 				99A1B53C1A355A2900192C88 /* showDisplay.gif in Resources */,
+				991E43B01A3EE9FA003792CA /* single.gif in Resources */,
 				996DEF441A2DBE6A008FE75B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
