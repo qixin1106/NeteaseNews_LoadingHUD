@@ -13,7 +13,7 @@
         UIViewController *pushVC = [[UIViewController alloc] init];
         pushVC.title = @"Display HUD";
         pushVC.view.backgroundColor = [UIColor whiteColor];
-        XPHUDView *hud = [[XPHUDView alloc] init];
+        QXHUDView *hud = [[QXHUDView alloc] init];
         [self.navigationController pushViewController:pushVC animated:YES];
         [hud showInView:pushVC.view];
 
@@ -22,13 +22,13 @@
         UIViewController *pushVC = [[UIViewController alloc] init];
         pushVC.title = @"Display HUD";
         pushVC.view.backgroundColor = [UIColor whiteColor];
-        XPHUDView *hud = [[XPHUDView alloc] init];
+        QXHUDView *hud = [[QXHUDView alloc] init];
         [self.navigationController pushViewController:pushVC animated:YES];
         [hud showInWindow];
 
 ### HIDE
 
-           [hud hideWithBlock:^(XPHUDView *hud) {
+            [hud hideWithBlock:^(QXHUDView *hud) {
                 [hud removeFromSuperview];
                 hud=nil;
             }];
