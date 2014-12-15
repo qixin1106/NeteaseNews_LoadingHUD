@@ -7,10 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-//HUD圆圈直径
-#define kHUDDiameter 30.0
-//HUD圆圈描边宽度
-#define kHUDLineWidth 2.0
 
 @interface QXHUDView : UIView
 //显示

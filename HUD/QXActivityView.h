@@ -7,16 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-//HUD圆圈直径
-#define kHUDDiameter 30.0
-//HUD圆圈描边宽度
-#define kHUDLineWidth 2.0
 
 @interface QXActivityView : UIView
-@property (strong, nonatomic) UIColor *lineColor;
-- (instancetype)initWithCenter:(CGPoint)center
-                      diameter:(CGFloat)diameter
-                     lineWidth:(CGFloat)lineWidth;
+@property (strong, nonatomic) UIColor *lineColor;//线颜色
+- (instancetype)initWithCenter:(CGPoint)center//中心坐标
+                      diameter:(CGFloat)diameter//直径=frame.宽
+                     lineWidth:(CGFloat)lineWidth;//线粗
 - (void)startAnimation;
 - (void)stopAnimation;
 @end
