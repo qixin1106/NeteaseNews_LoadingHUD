@@ -5,6 +5,9 @@
 
 ![image](https://raw.githubusercontent.com/qixin1106/NeteaseNews_LoadingHUD/master/showDisplay.gif)
 
+单个loading显示,可以配置.
+
+![image](https://raw.githubusercontent.com/qixin1106/NeteaseNews_LoadingHUD/master/single.gif)
 
 
 
