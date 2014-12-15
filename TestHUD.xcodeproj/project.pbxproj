@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		991E43AB1A3EE03F003792CA /* XPHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E43AA1A3EE03F003792CA /* XPHUDView.m */; };
 		996DEF391A2DBE6A008FE75B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 996DEF381A2DBE6A008FE75B /* main.m */; };
 		996DEF3C1A2DBE6A008FE75B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 996DEF3B1A2DBE6A008FE75B /* AppDelegate.m */; };
 		996DEF3F1A2DBE6A008FE75B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 996DEF3E1A2DBE6A008FE75B /* ViewController.m */; };
 		996DEF421A2DBE6A008FE75B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996DEF401A2DBE6A008FE75B /* Main.storyboard */; };
 		996DEF441A2DBE6A008FE75B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996DEF431A2DBE6A008FE75B /* Images.xcassets */; };
 		996DEF471A2DBE6A008FE75B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 996DEF451A2DBE6A008FE75B /* LaunchScreen.xib */; };
-		996DEF5E1A2DBEEA008FE75B /* XPHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 996DEF5D1A2DBEEA008FE75B /* XPHUDView.m */; };
 		99A1B53B1A355A2900192C88 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 99A1B5391A355A2900192C88 /* README.md */; };
 		99A1B53C1A355A2900192C88 /* showDisplay.gif in Resources */ = {isa = PBXBuildFile; fileRef = 99A1B53A1A355A2900192C88 /* showDisplay.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		991E43A91A3EE03F003792CA /* XPHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPHUDView.h; sourceTree = "<group>"; };
+		991E43AA1A3EE03F003792CA /* XPHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPHUDView.m; sourceTree = "<group>"; };
 		996DEF331A2DBE6A008FE75B /* TestHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		996DEF371A2DBE6A008FE75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		996DEF381A2DBE6A008FE75B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -29,8 +31,6 @@
 		996DEF411A2DBE6A008FE75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		996DEF431A2DBE6A008FE75B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		996DEF461A2DBE6A008FE75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		996DEF5C1A2DBEEA008FE75B /* XPHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPHUDView.h; sourceTree = "<group>"; };
-		996DEF5D1A2DBEEA008FE75B /* XPHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPHUDView.m; sourceTree = "<group>"; };
 		99A1B5391A355A2900192C88 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		99A1B53A1A355A2900192C88 /* showDisplay.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = showDisplay.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		991E43A81A3EE03F003792CA /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				991E43A91A3EE03F003792CA /* XPHUDView.h */,
+				991E43AA1A3EE03F003792CA /* XPHUDView.m */,
+			);
+			path = HUD;
+			sourceTree = SOURCE_ROOT;
+		};
 		996DEF2A1A2DBE6A008FE75B = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +76,7 @@
 		996DEF351A2DBE6A008FE75B /* TestHUD */ = {
 			isa = PBXGroup;
 			children = (
+				991E43A81A3EE03F003792CA /* HUD */,
 				996DEF3A1A2DBE6A008FE75B /* AppDelegate.h */,
 				996DEF3B1A2DBE6A008FE75B /* AppDelegate.m */,
 				996DEF3D1A2DBE6A008FE75B /* ViewController.h */,
@@ -75,8 +85,6 @@
 				996DEF431A2DBE6A008FE75B /* Images.xcassets */,
 				996DEF451A2DBE6A008FE75B /* LaunchScreen.xib */,
 				996DEF361A2DBE6A008FE75B /* Supporting Files */,
-				996DEF5C1A2DBEEA008FE75B /* XPHUDView.h */,
-				996DEF5D1A2DBEEA008FE75B /* XPHUDView.m */,
 			);
 			path = TestHUD;
 			sourceTree = "<group>";
@@ -164,7 +172,7 @@
 				996DEF3F1A2DBE6A008FE75B /* ViewController.m in Sources */,
 				996DEF3C1A2DBE6A008FE75B /* AppDelegate.m in Sources */,
 				99A1B53B1A355A2900192C88 /* README.md in Sources */,
-				996DEF5E1A2DBEEA008FE75B /* XPHUDView.m in Sources */,
+				991E43AB1A3EE03F003792CA /* XPHUDView.m in Sources */,
 				996DEF391A2DBE6A008FE75B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -282,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
