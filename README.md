@@ -11,6 +11,27 @@
 
 
 
+
+
+
+
+
+### LOADING
+
+    QXActivityView *av = [[QXActivityView alloc] initWithCenter:CGPointMake(100, 200)
+                                                       diameter:20.0
+                                                      lineWidth:2.0];
+    av.lineColor = [UIColor blueColor];
+    [self.view addSubview:av];
+    [av startAnimation];
+
+
+
+
+
+
+
+
 ### SHOW IN VIEW
 
         UIViewController *pushVC = [[UIViewController alloc] init];
@@ -35,3 +56,8 @@
                 [hud removeFromSuperview];
                 hud=nil;
             }];
+
+
+
+
+
