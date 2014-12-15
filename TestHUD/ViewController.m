@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "XPHUDView.h"
-
+#import "QXHUDView.h"
+#import "QXActivityView.h"
 
 @implementation ViewController
 
@@ -23,7 +23,7 @@
         UIViewController *pushVC = [[UIViewController alloc] init];
         pushVC.title = @"Display HUD";
         pushVC.view.backgroundColor = [UIColor whiteColor];
-        XPHUDView *hud = [[XPHUDView alloc] init];
+        QXHUDView *hud = [[QXHUDView alloc] init];
         [self.navigationController pushViewController:pushVC animated:YES];
         [hud showInView:pushVC.view];
     }
@@ -34,12 +34,12 @@
         UIViewController *pushVC = [[UIViewController alloc] init];
         pushVC.title = @"Display HUD";
         pushVC.view.backgroundColor = [UIColor whiteColor];
-        XPHUDView *hud = [[XPHUDView alloc] init];
+        QXHUDView *hud = [[QXHUDView alloc] init];
         [self.navigationController pushViewController:pushVC animated:YES];
         [hud showInWindow];
         //test
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [hud hideWithBlock:^(XPHUDView *hud) {
+            [hud hideWithBlock:^(QXHUDView *hud) {
                 [hud removeFromSuperview];
                 hud=nil;
             }];
