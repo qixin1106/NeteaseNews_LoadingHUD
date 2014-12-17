@@ -21,6 +21,9 @@
 
 - (void)startAnimation
 {
+    [UIView animateWithDuration:0.15 animations:^{
+        self.alpha = 1;
+    }];
     self.link = [CADisplayLink displayLinkWithTarget:self selector:@selector(updateActivityView)];
     [self.link addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
 }
@@ -29,7 +32,9 @@
 {
     [self.link invalidate];
     self.link = nil;
-    [self removeFromSuperview];
+    [UIView animateWithDuration:0.15 animations:^{
+        self.alpha = 0;
+    }];
 }
 
 
