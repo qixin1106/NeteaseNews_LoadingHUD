@@ -17,7 +17,6 @@
 		996DEF421A2DBE6A008FE75B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996DEF401A2DBE6A008FE75B /* Main.storyboard */; };
 		996DEF441A2DBE6A008FE75B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996DEF431A2DBE6A008FE75B /* Images.xcassets */; };
 		996DEF471A2DBE6A008FE75B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 996DEF451A2DBE6A008FE75B /* LaunchScreen.xib */; };
-		9984E6401A4127F40086CE54 /* XPHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9984E63F1A4127F40086CE54 /* XPHUDView.m */; };
 		99A1B53B1A355A2900192C88 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 99A1B5391A355A2900192C88 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -38,8 +37,6 @@
 		996DEF411A2DBE6A008FE75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		996DEF431A2DBE6A008FE75B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		996DEF461A2DBE6A008FE75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9984E63E1A4127F40086CE54 /* XPHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPHUDView.h; sourceTree = "<group>"; };
-		9984E63F1A4127F40086CE54 /* XPHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPHUDView.m; sourceTree = "<group>"; };
 		99A1B5391A355A2900192C88 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,8 +54,6 @@
 		991E43A81A3EE03F003792CA /* HUD */ = {
 			isa = PBXGroup;
 			children = (
-				9984E63E1A4127F40086CE54 /* XPHUDView.h */,
-				9984E63F1A4127F40086CE54 /* XPHUDView.m */,
 				991E43A91A3EE03F003792CA /* QXHUDView.h */,
 				991E43AA1A3EE03F003792CA /* QXHUDView.m */,
 				991E43AC1A3EE08A003792CA /* QXActivityView.h */,
@@ -183,7 +178,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9984E6401A4127F40086CE54 /* XPHUDView.m in Sources */,
 				996DEF3F1A2DBE6A008FE75B /* ViewController.m in Sources */,
 				996DEF3C1A2DBE6A008FE75B /* AppDelegate.m in Sources */,
 				991E43AE1A3EE08A003792CA /* QXActivityView.m in Sources */,
