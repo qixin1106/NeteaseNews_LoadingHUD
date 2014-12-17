@@ -29,6 +29,7 @@
 {
     [self.link invalidate];
     self.link = nil;
+    [self removeFromSuperview];
 }
 
 
